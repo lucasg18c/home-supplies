@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  homesupplies.api:
+    image: ${DOCKER_REGISTRY-}homesupplies
+    build:
+      context: .
+      dockerfile: HomeSupplies.API/Dockerfile
