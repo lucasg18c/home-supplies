@@ -6,3 +6,5 @@ services:
     build:
       context: .
       dockerfile: HomeSupplies.API/Dockerfile
+    ports:
+      - "8080:80"
